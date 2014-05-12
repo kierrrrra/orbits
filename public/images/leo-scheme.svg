@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="388px" height="389px" viewBox="0 0 388 389" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>LEO Scheme</title>
+    <description>Created with Sketch.</description>
+    <defs>
+        <radialGradient cx="30.5996388%" cy="31.5830277%" fx="30.5996388%" fy="31.5830277%" r="100%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-323.000000, -3423.000000)">
+            <g id="LEO-Scheme" sketch:type="MSLayerGroup" transform="translate(326.000000, 3426.571584)">
+                <g id="Earth" stroke="#4990E2" stroke-width="5" fill="url(#radialGradient-1)" sketch:type="MSShapeGroup" fill-opacity="0.1">
+                    <circle cx="191" cy="191" r="191"></circle>
+                </g>
+                <path d="M41.6679688,73.0022711 C-22.8398439,-1.27898071 146.742189,127.019531 192.019535,163.261721 M176.089844,197.835938 C225.5,235.21875 399.972656,361.425781 349.28125,298.660156" id="Path-4" stroke="#FFFFFF" stroke-width="3" sketch:type="MSShapeGroup"></path>
+                <path id="Path-4-decoration-1" d="M181.24563,158.5548 C184.857887,160.062527 187.964436,161.373256 191.567808,162.900379 C189.269744,159.728211 187.274367,157.00138 184.95169,153.836207 M358.439942,306.135794 C355.372645,303.426762 352.700663,301.314779 349.539171,298.980298 C351.029025,302.585852 352.19147,305.682893 353.333674,309.286354" stroke="#FFFFFF" stroke-width="3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

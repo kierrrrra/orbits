@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="605px" height="579px" viewBox="0 0 605 579" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>Molniya</title>
+    <description>Created with Sketch.</description>
+    <defs>
+        <radialGradient cx="30.5996388%" cy="31.5830277%" fx="30.5996388%" fy="31.5830277%" r="100%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-256.000000, -5416.000000)">
+            <g id="Molniya" sketch:type="MSLayerGroup" transform="translate(259.000000, 5417.000000)">
+                <g id="Earth-2" transform="translate(0.000000, 288.000000)" stroke="#4990E2" stroke-width="5" fill="url(#radialGradient-1)" sketch:type="MSShapeGroup" fill-opacity="0.1">
+                    <circle id="Earth" cx="139.5" cy="139.5" r="139.5"></circle>
+                </g>
+                <path d="M72.0457368,552.423419 C72.0457369,705.422749 705.223898,78.1060787 585.296896,10.6093753 C465.369895,-56.8873282 207.728305,223.916839 161.260184,287.85617" id="Path-9" stroke="#FFFFFF" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-6" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="585.5" cy="91.5" r="4.5"></circle>
+                <rect id="Rectangle-3" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(577.593750, 87.517578) rotate(26.000000) translate(-577.593750, -87.517578) " x="570.09375" y="85.5175781" width="15" height="4"></rect>
+                <rect id="Rectangle-4" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(592.593750, 95.517578) rotate(28.000000) translate(-592.593750, -95.517578) " x="585.09375" y="93.5175781" width="15" height="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,70 @@
+/* Satellite distance above the Earth animation **/
+/* line 2, animation.scss */
+.animated-path {
+  stroke-dasharray: 10px 2px;
+  -webkit-animation: stroke-animation 10000s infinite;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes stroke-animation {
+  /* line 10, animation.scss */
+  0% {
+    stroke-dashoffset: 0px;
+  }
+
+  /* line 13, animation.scss */
+  100% {
+    stroke-dashoffset: -100000px;
+  }
+}
+
+/* Satellites tracing above Earth animation **/
+/* line 24, animation.scss */
+.trace-path-1,
+.trace-path-2,
+.trace-path-3 {
+  stroke-dasharray: 1879px;
+  stroke-dashoffset: 1879px;
+}
+
+/* line 29, animation.scss */
+.trace-path-1 {
+  -webkit-animation: trace-path-animation 15s infinite;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+}
+
+/* line 34, animation.scss */
+.trace-path-2 {
+  -webkit-animation: trace-path-animation 15s infinite;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+}
+
+/* line 40, animation.scss */
+.trace-path-3 {
+  -webkit-animation: trace-path-animation 15s infinite;
+  -webkit-animation-delay: 10s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes trace-path-animation {
+  /* line 48, animation.scss */
+  0% {
+    stroke-dashoffset: 1879px;
+  }
+
+  /* line 51, animation.scss */
+  33% {
+    stroke-dashoffset: 0px;
+  }
+
+  /* line 54, animation.scss */
+  100% {
+    opacity: 0;
+    stroke-dashoffset: 0px;
+  }
+}

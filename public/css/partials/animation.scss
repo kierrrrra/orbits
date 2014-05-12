@@ -1,0 +1,58 @@
+/* Satellite distance above the Earth animation **/
+.animated-path {
+    stroke-dasharray: 10px 2px;
+    -webkit-animation: stroke-animation 10000s infinite;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes stroke-animation {
+    0% {
+        stroke-dashoffset: 0px
+    }
+    100% {
+        stroke-dashoffset: -100000px
+    }
+}
+
+
+/* Satellites tracing above Earth animation **/
+$trace-path-animation-time: 15s;
+
+.trace-path-1,
+.trace-path-2,
+.trace-path-3 {
+    stroke-dasharray: 1879px;
+    stroke-dashoffset: 1879px;
+}
+
+.trace-path-1 {
+    -webkit-animation: trace-path-animation $trace-path-animation-time infinite;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+}
+.trace-path-2 {
+    -webkit-animation: trace-path-animation $trace-path-animation-time infinite;
+    -webkit-animation-delay: $trace-path-animation-time/3;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+}
+.trace-path-3 {
+    -webkit-animation: trace-path-animation $trace-path-animation-time infinite;
+    -webkit-animation-delay: ($trace-path-animation-time/3)*2;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes trace-path-animation {
+    0% {
+        stroke-dashoffset: 1879px;
+    }
+    33% {
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        opacity: 0;
+        stroke-dashoffset: 0px;
+    }
+}
